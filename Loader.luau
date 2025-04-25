@@ -10,6 +10,8 @@ local gid = game.PlaceId -- Place ID
 
 if gid == 301549746 then
   loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/ZeroWare-V2/refs/heads/main/lil-w.lua'))() -- Counter Blox
+elseif gid == 4639625707 then
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/ZeroWare-V2/refs/heads/main/wt'))() -- War Tycoon
 else
   loadstring(game:HttpGet('https://raw.githubusercontent.com/scytheXlol/ZeroWare-V2/refs/heads/main/universal.lua'))() -- Universal
 end
